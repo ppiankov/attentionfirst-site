@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attention First</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0E1116;
+      color: #CDD6E0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1.5rem;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      color: #CDD6E0;
+    }
+    a { color: #CDD6E0; }
+    .meta {
+      color: #7C8590;
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
+    }
+    .tool {
+      margin-bottom: 1.5rem;
+    }
+    .tool-name {
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px solid #3B414A;
+    }
+    .tool-name:hover {
+      border-bottom-color: #7C8590;
+    }
+    .tool-desc {
+      color: #7C8590;
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+    }
+    .section-intro {
+      color: #7C8590;
+      font-size: 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+    .links {
+      margin-top: 3rem;
+      color: #7C8590;
+      font-size: 0.9rem;
+    }
+    .links a {
+      color: #7C8590;
+      margin-right: 1.5rem;
+    }
+    .category-icon {
+      font-size: 0.85rem;
+      margin-right: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Attention First</h1>
+  <p class="meta">Watch drift. Act now. Remove friction.</p>
+
+  <p>
+    Infrastructure tools that surface only what justifies attention.
+    No dashboards. No collection-for-collection's-sake. Quiet when healthy,
+    sharp when not.
+  </p>
+
+  <p>
+    Built from eight years of duct-taping production systems and asking
+    the same question: why are we maintaining infrastructure tax for signals
+    we read twice a year?
+  </p>
+
+  <h2>Watch</h2>
+  <p class="section-intro">Detect systemic risk and trust decay before it becomes an incident.</p>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/trustwatch">trustwatch</a>
+    <p class="tool-desc">Kubernetes trust surface monitoring. Discovers expiring certificates on webhooks, API aggregation, and service mesh issuers.</p>
+  </div>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/chainwatch">chainwatch</a>
+    <p class="tool-desc">AI agent execution control plane. Enforces safety at irreversible boundaries — payments, credentials, data destruction.</p>
+  </div>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/pastewatch">pastewatch</a>
+    <p class="tool-desc">Clipboard obfuscation for macOS. Replaces sensitive data with placeholders before it reaches AI chat interfaces.</p>
+  </div>
+
+  <h2>Now</h2>
+  <p class="section-intro">Surface only what matters right now. Silence means health.</p>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/kubenow">kubenow</a>
+    <p class="tool-desc">Kubernetes resource analysis and cost optimization. Evidence-based recommendations from Prometheus metrics, not guesswork.</p>
+  </div>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/infranow">infranow</a>
+    <p class="tool-desc">Real-time infrastructure triage. 13 deterministic detectors, ranked by severity. Empty screen means everything is fine.</p>
+  </div>
+
+  <h2>Spectre</h2>
+  <p class="section-intro">Compare what code references against what actually exists. Find drift, stale paths, forgotten resources.</p>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/vaultspectre">vaultspectre</a>
+    <p class="tool-desc">Vault secret path auditor. Scans code for secret references, validates against live Vault, flags stale and missing paths.</p>
+  </div>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/clickspectre">clickspectre</a>
+    <p class="tool-desc">ClickHouse usage analyzer. Maps service-to-table relationships, scores cleanup safety, generates interactive reports.</p>
+  </div>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/s3spectre">s3spectre</a>
+    <p class="tool-desc">S3 bucket and object auditor. Detects drift between code references and actual AWS state.</p>
+  </div>
+
+  <h2>Contain</h2>
+  <p class="section-intro">Ephemeral incident tooling. Install, capture, uninstall. No permanent footprint.</p>
+
+  <div class="tool">
+    <a class="tool-name" href="https://github.com/ppiankov/logtap">logtap</a>
+    <p class="tool-desc">Ephemeral log mirror for Kubernetes. Sidecar injection, local capture, PII redaction. Tap in, grab logs, tap out.</p>
+  </div>
+
+  <h2>Principle</h2>
+
+  <p>
+    These tools exist because production systems accumulate silent drift,
+    noisy telemetry, and abandoned artifacts. Instead of collecting everything,
+    they surface only what justifies its cost.
+  </p>
+
+  <p>
+    Every tool follows the same rules: deterministic over probabilistic,
+    control over observability, restraint over speed.
+    Tools present evidence and let you decide — mirrors, not oracles.
+  </p>
+
+  <div class="links">
+    <a href="https://github.com/ppiankov">GitHub</a>
+  </div>
+</body>
+</html>
